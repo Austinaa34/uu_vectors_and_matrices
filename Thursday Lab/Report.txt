@@ -1,0 +1,8 @@
+#### Report:
+
+The new system implemented in Part 2 question 3 ultimately had no affect on the performance of the existing options.
+The top three songs of the new system were the same as the old TFIDF cosine system, that being "The Girl that I Marry," "Cavatina," and "The Girl Next Door."
+This resulted in the same exact cosine scores of 0.335758, 0.331226, and 0.327615. 
+They also had the same exact Precision@3 score of 0.21011904761904762.
+Ultimately, the rare words that the IDF weighed the heaviest had no affect when they were removed.  
+
